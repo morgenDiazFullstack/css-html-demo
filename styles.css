@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 30px;
+
 }
 
 .nav-links{
@@ -18,6 +18,14 @@ body{
     display: flex;
     justify-content: space-evenly;
     color: white;
+}
+
+.nav-button{
+}
+
+.nav-button:hover{
+    transform: scale(1.2); /* Scale the link on hover */
+    cursor: pointer;
 }
 
 .hero{
