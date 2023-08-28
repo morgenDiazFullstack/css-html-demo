@@ -9,9 +9,17 @@ body{
 }
 
 .nav{
+    display: flex;
+    justify-content: center;
     border: solid 1px black;
     text-align: center;
     height: 30px;
+}
+
+.nav-links{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .hero{
